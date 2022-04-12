@@ -4,6 +4,9 @@
   0% {
     background: red;
   }
+  50%{
+    background: green;
+  }
   100% {
     background: blue;
   }
@@ -15,5 +18,5 @@
   border: 1px solid red;
 }
 #app4 .circle.active{
-  animation: change 1s infinite alternate linear;
+  animation: change 2s infinite alternate linear;
 }
